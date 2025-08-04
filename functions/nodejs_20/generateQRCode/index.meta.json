@@ -1,0 +1,38 @@
+{
+  "apiID": "package_0c07c2__c__function_ygjr8rl0aku72",
+  "apiName": "generateQRCode",
+  "label": {
+    "zh_CN": "生成二维码",
+    "en_US": "Generate QR Code"
+  },
+  "description": {
+    "zh_CN": "根据输入内容生成二维码图片",
+    "en_US": "Generate QR code image based on input content"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [
+    {
+      "key": "content",
+      "type": "Text",
+      "required": true,
+      "label": "二维码内容",
+      "description": "需要编码到二维码中的内容"
+    },
+    {
+      "key": "size",
+      "type": "Number",
+      "required": false,
+      "label": "二维码尺寸",
+      "description": "二维码图片的尺寸（像素）"
+    }
+  ],
+  "output": [
+    {
+      "key": "qrCodeUrl",
+      "type": "Text",
+      "label": "二维码URL",
+      "description": "生成的二维码图片URL"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "apiID": "package_0c07c2__c__function_0439b2ul72qh2",
+  "apiName": "test",
+  "label": {
+    "zh_CN": "测试",
+    "en_US": "Test"
+  },
+  "description": {
+    "zh_CN": "测试云函数",
+    "en_US": "Test cloud function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
