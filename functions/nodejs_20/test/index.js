@@ -8,7 +8,7 @@
 module.exports = async function (params, context, logger) {
     // 记录函数开始执行的日志
     logger.info("测试函数开始执行");
-    
+    logger.info("测试函数开始执行1");
     // 这里可以添加你的测试逻辑
     // 例如：
     logger.info("这是一个测试函数，当前时间：" + new Date().toISOString());
