@@ -4,7 +4,7 @@ import (
 	"context"
 )
 
-/*Params 函数入参定义
+/*Params 函数入参定义1
  * 结构体名称不支持自定义, 必须为 Params
  * 结构体属性支持自定义, 和 index.meta.json 中的 input 参数一一对应
  */
