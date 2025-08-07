@@ -3,14 +3,15 @@
   "apiName": "pre0807_20",
   "label": {
     "zh_CN": "pre0807_20",
-    "en_US": ""
+    "en_US": null
   },
   "description": {
     "zh_CN": "自定义函数",
     "en_US": "Custom Function"
   },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": true,
   "longTaskMode": false,
-  "frontendSDKInvokable": false,
   "input": [],
   "output": []
 }
