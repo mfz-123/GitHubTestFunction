@@ -7,7 +7,7 @@
       "skipFiles": [
         "<node_internals>/**",
         "${workspaceFolder}/.kldx/**",
-        "${workspaceFolder}/functions/nodejs//node_modules/**",
+        "${workspaceFolder}/functions/nodejs/node_modules/**",
         "${workspaceFolder}/.ae/**"
       ],
       "preLaunchTask": "PrepareDebugTask",
@@ -35,6 +35,23 @@
         "_LOCAL_DEBUG_MODE_": "true",
         "_LOCAL_DEBUG_PORT_FILE_": "${workspaceFolder}/.ae/functionsFramework/port"
       }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "NodeJs20 云函数断点调试",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/.kldx/**",
+        "${workspaceFolder}/functions/nodejs_20/node_modules/**",
+        "${workspaceFolder}/.ae/**"
+      ],
+      "preLaunchTask": "PrepareDebugTask",
+      "program": "${workspaceFolder}/.ae/functionsFramework/nodejs_20/launch.js",
+      "env": {
+        "_LANE_NAME_": ""
+      },
+      "runtimeVersion": "20.10.0"
     }
   ]
 }
