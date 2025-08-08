@@ -11,6 +11,21 @@
   },
   "longTaskMode": false,
   "frontendSDKInvokable": false,
-  "input": [],
-  "output": []
+  "input": [
+    {
+      "key": "ru",
+      "type": "Text",
+      "label": "ru",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "output": [
+    {
+      "key": "chu",
+      "type": "Text",
+      "label": "chu",
+      "description": ""
+    }
+  ]
 }
