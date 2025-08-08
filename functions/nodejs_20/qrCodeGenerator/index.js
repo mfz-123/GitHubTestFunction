@@ -4,7 +4,7 @@ const path = require('path');
 /**
  * @description 修改云函数文件名为test.js的云函数
  * @param {Object} params - 参数对象
- * @param {Object} context - 上下文对象
+ * @param {Object} context - 上下文对象1
  * @param {Logger} logger - 日志记录器
  * @return {Object} 返回操作结果
  */
