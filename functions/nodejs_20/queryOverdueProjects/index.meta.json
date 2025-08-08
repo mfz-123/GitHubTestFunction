@@ -1,0 +1,37 @@
+{
+  "apiID": "package_0c07c2__c__function_vmidqhbb92ukv",
+  "apiName": "queryOverdueProjects",
+  "label": {
+    "zh_CN": "查询延期项目",
+    "en_US": "Query Overdue Projects"
+  },
+  "description": {
+    "zh_CN": "查询当前运行中且已延期的项目列表",
+    "en_US": "Query a list of currently running and overdue projects"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [
+    {
+      "key": "test",
+      "type": "Text",
+      "label": "tes",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "output": [
+    {
+      "key": "projects",
+      "type": "JSON",
+      "label": "项目列表",
+      "description": "包含运行中且已延期项目信息的JSON数组"
+    },
+    {
+      "key": "count",
+      "type": "Number",
+      "label": "项目数量",
+      "description": "符合条件的项目总数"
+    }
+  ]
+}
