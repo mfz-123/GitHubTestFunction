@@ -9,10 +9,9 @@
  *
  * @return 函数的返回数据
  */
-module.exports = async function (params, context, logger) {
+module.exports = async function (ru, chu, logger) {
   // 日志功能
   // logger.info(`${new Date()} 函数开始执行`);
-  logger.info(params)
-  logger.info(context)
+  logger.info(ru)
   // 在这里补充业务代码
 }
