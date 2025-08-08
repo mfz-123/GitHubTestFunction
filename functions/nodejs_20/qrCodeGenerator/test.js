@@ -28,7 +28,7 @@ module.exports = async function (params, context, logger) {
         if (fs.existsSync(newFilePath)) {
             return {
                 success: false,
-                message: '目标文件名已存在'
+                message: '该文件名已被使用，请尝试其他名称'
             };
         }
 

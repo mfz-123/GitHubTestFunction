@@ -13,5 +13,12 @@
   "frontendSDKInvokable": true,
   "longTaskMode": false,
   "input": [],
-  "output": []
+  "output": [
+    {
+      "key": "test",
+      "type": "Text",
+      "label": "test",
+      "description": ""
+    }
+  ]
 }
