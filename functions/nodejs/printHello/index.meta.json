@@ -1,0 +1,23 @@
+{
+  "apiID": "package_0c07c2__c__function_cmzjorpaqr1h2",
+  "apiName": "printHello",
+  "label": {
+    "zh_CN": "打印Hello",
+    "en_US": "Print Hello"
+  },
+  "description": {
+    "zh_CN": "打印输出'hello'字符串",
+    "en_US": "Print the 'hello' string"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": [
+    {
+      "key": "message",
+      "type": "Text",
+      "label": "消息",
+      "description": "输出的hello消息"
+    }
+  ]
+}
