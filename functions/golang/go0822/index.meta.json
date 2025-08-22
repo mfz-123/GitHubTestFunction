@@ -1,0 +1,16 @@
+{
+  "apiID": "package_0c07c2__c__function_aadivad4kjmvu",
+  "apiName": "go0822",
+  "label": {
+    "zh_CN": "go 0822",
+    "en_US": "go 0822"
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": false,
+  "input": [],
+  "output": []
+}
