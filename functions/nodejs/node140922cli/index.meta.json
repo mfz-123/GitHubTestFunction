@@ -1,0 +1,16 @@
+{
+  "apiID": "package_0c07c2__c__function_aadi2durnweiw",
+  "apiName": "node140922cli",
+  "label": {
+    "zh_CN": "node 140922 cli",
+    "en_US": "node 140922 cli"
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": false,
+  "input": [],
+  "output": []
+}
