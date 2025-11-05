@@ -1,4 +1,4 @@
-package autoTestGoLongTaskFunc1762348214851
+package autoTestGoFunc1762349446989
 
 import (
 	"context"
