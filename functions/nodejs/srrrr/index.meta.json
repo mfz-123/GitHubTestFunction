@@ -1,0 +1,16 @@
+{
+  "apiID": "package_0c07c2__c__function_aadjdrfc6j2gs",
+  "apiName": "srrrr",
+  "label": {
+    "zh_CN": "srrrr",
+    "en_US": "srrrr"
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": false,
+  "input": [],
+  "output": []
+}
